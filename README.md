@@ -42,7 +42,7 @@ ROBOT SUITE:
 ------------
 	1)	Go the framework copied Directory : ~/oppenheimerProj/
 	2)	Execute the following command:
-		iAbarnaV-MacBook-Pro:oppenheimerProj iAbarnaV$  robot --loglevel DEBUG --timestampoutputs --outputdir logs/ test_scripts/testSuite.robot
+		$  robot --loglevel DEBUG --timestampoutputs --outputdir logs/ test_scripts/testSuite.robot
 
 
 EXECUTION_LOGS:
