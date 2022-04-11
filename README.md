@@ -40,16 +40,16 @@ TEST_SUITE.robot
 
 ROBOT SUITE:
 ------------
-	1)	Go the framework copied Directory : ~/oppenheimerProj/
+	1)	Go the framework copied Directory : ~/oppenheimer/
 	2)	Execute the following command:
-		$  robot --loglevel DEBUG --timestampoutputs --outputdir logs/ test_scripts/testSuite.robot
+		$  robot --loglevel DEBUG --timestampoutputs --outputdir logs/ tests/testSuite.robot
 
 
 EXECUTION_LOGS:
 ---------------
 
-		iAbarnaV-MacBook-Pro:oppenheimerProj iAbarnaV$ robot --loglevel DEBUG --timestampoutputs --outputdir logs/ tests/testSuite.robot
-		Command: /Users/iabarnav/tools/red-workaround/python -m robot.run --listener 	/var/folders/t6/cppytr0906ngmdddzyqdbfq40000gp/T/RobotTempDir13121175446785765543/TestRunnerAgent.py:55086 --argumentfile /var/folders/t6/cppytr0906ngmdddzyqdbfq40000gp/T/RobotTempDir13121175446785765543/args_a4728901.arg/Users/iabarnav/eclipse-workspace/oppenheimerProj
+		iAbarnaV-MacBook-Pro:oppenheimer iAbarnaV$ robot --loglevel DEBUG --timestampoutputs --outputdir logs/ tests/testSuite.robot
+		Command: /Users/iabarnav/tools/red-workaround/python -m robot.run --listener 	/var/folders/t6/cppytr0906ngmdddzyqdbfq40000gp/T/RobotTempDir13121175446785765543/TestRunnerAgent.py:55086 --argumentfile /var/folders/t6/cppytr0906ngmdddzyqdbfq40000gp/T/RobotTempDir13121175446785765543/args_a4728901.arg/Users/iabarnav/eclipse-workspace/oppenheimer
 		Suite Executor: Robot Framework 4.1.3 (Python 2.7.18 on darwin)
 
 		oppenheimerProj.Tests.testSuite                                               
@@ -75,7 +75,7 @@ EXECUTION_LOGS:
 		oppenheimerProj                                                       | PASS |
 		5 tests, 5 passed, 0 failed
 		\==============================================================================
-		Output:  /Users/iabarnav/eclipse-workspace/oppenheimerProj/output.xml
-		Log:     /Users/iabarnav/eclipse-workspace/oppenheimerProj/log.html
-		Report:  /Users/iabarnav/eclipse-workspace/oppenheimerProj/report.html 
+		Output:  /Users/iabarnav/eclipse-workspace/oppenheimer/output.xml
+		Log:     /Users/iabarnav/eclipse-workspace/oppenheimer/log.html
+		Report:  /Users/iabarnav/eclipse-workspace/oppenheimer/report.html 
 
