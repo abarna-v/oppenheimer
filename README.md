@@ -14,10 +14,14 @@ PRE-REQUISITES:
 INSTALLATION STEPS:
 -------------------
 	1) Copy the auto_bot folder from Git Repository to your Computer (using Download or git clone options)
-		a) https://github.com/iVinothG/auto_bot
+		a) https://github.com/abarna-v/oppenheimer/
 	2) Install the Dependency pip(package) Files
-		a) Go the ~/auto_bot/
+		a) Go the ~/oppenheimer/
 		b) Execute : python utils/install_setup.py
+	3) Copy the Oppenheimer Proj into the utils direcory.
+		a) Go the ~/oppenheimer/utils/
+		b) git clone https://github.com/auronsiow/oppenheimer-project-dev.git
+		c) Make sure the OppenheimerProjectDev.jar are present in the "~/oppenheimer/utils/" location.
 
 TEST_SUITE.robot
 -----------------
