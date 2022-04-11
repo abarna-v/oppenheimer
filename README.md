@@ -41,8 +41,6 @@ ROBOT SUITE:
 		iAbarnaV-MacBook-Pro:oppenheimerProj iAbarnaV$  robot --loglevel DEBUG --timestampoutputs --outputdir logs/ test_scripts/testSuite.robot
 
 
-=====================================================================================================================================
-
 EXECUTION_LOGS:
 ---------------
 
