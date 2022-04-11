@@ -1,0 +1,10 @@
+#python -m pip install --upgrade pip setuptools wheel
+pandas
+pygments
+PyYAML
+selenium
+webdrivermanager
+requests
+robotframework
+robotframework-seleniumlibrary
+robotframework-Selenium2Library
