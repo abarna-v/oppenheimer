@@ -44,41 +44,34 @@ ROBOT SUITE:
 EXECUTION_LOGS:
 ---------------
 
-iAbarnaV-MacBook-Pro:oppenheimerProj iAbarnaV$ robot --loglevel DEBUG --timestampoutputs --outputdir logs/ tests/testSuite.robot
-==============================================================================
-Command: /Users/iabarnav/tools/red-workaround/python -m robot.run --listener /var/folders/t6/cppytr0906ngmdddzyqdbfq40000gp/T/RobotTempDir13121175446785765543/TestRunnerAgent.py:55086 --argumentfile /var/folders/t6/cppytr0906ngmdddzyqdbfq40000gp/T/RobotTempDir13121175446785765543/args_a4728901.arg/Users/iabarnav/eclipse-workspace/oppenheimerProj
-Suite Executor: Robot Framework 4.1.3 (Python 2.7.18 on darwin)
-==============================================================================
-oppenheimerProj                                                               
-==============================================================================
-oppenheimerProj.Tests                                                         
-==============================================================================
-oppenheimerProj.Tests.testSuite                                               
-==============================================================================
-TC_1: INSERT SINGLE PERSON RECORD :: INSERT SINGLE RECORD OF A WOR... | PASS |
-------------------------------------------------------------------------------
-TC_2: INSERT MULTIPLE PERSON RECORD :: INSERT SINGLE RECORD OF A W... | PASS |
-------------------------------------------------------------------------------
-TC_3: UPLOAD CSV FILE TO PORTAL :: INSERT SINGLE RECORD OF A WORKI... | PASS |
-------------------------------------------------------------------------------
-TC_4: CALCULATE AMOUNT OF TAX RELIEF :: CALCULATE TAX RELIEF FOR A... | PASS |
-------------------------------------------------------------------------------
-TC_5: DISPENSE TAX RELIEF TO WORKING CLASS HEROES :: DISPENSE THE ... | PASS |
-------------------------------------------------------------------------------
-Cleaning the Oppenheimer Project !!!
+		iAbarnaV-MacBook-Pro:oppenheimerProj iAbarnaV$ robot --loglevel DEBUG --timestampoutputs --outputdir logs/ tests/testSuite.robot
+		Command: /Users/iabarnav/tools/red-workaround/python -m robot.run --listener 	/var/folders/t6/cppytr0906ngmdddzyqdbfq40000gp/T/RobotTempDir13121175446785765543/TestRunnerAgent.py:55086 --argumentfile /var/folders/t6/cppytr0906ngmdddzyqdbfq40000gp/T/RobotTempDir13121175446785765543/args_a4728901.arg/Users/iabarnav/eclipse-workspace/oppenheimerProj
+		Suite Executor: Robot Framework 4.1.3 (Python 2.7.18 on darwin)
 
-oppenheimerProj.Tests.testSuite                                       | PASS |
-5 tests, 5 passed, 0 failed
-==============================================================================
-oppenheimerProj.Tests                                                 | PASS |
-5 tests, 5 passed, 0 failed
-==============================================================================
-oppenheimerProj                                                       | PASS |
-5 tests, 5 passed, 0 failed
-==============================================================================
-Output:  /Users/iabarnav/eclipse-workspace/oppenheimerProj/output.xml
-Log:     /Users/iabarnav/eclipse-workspace/oppenheimerProj/log.html
-Report:  /Users/iabarnav/eclipse-workspace/oppenheimerProj/report.html 
+		oppenheimerProj.Tests.testSuite                                               
+		==============================================================================
+		TC_1: INSERT SINGLE PERSON RECORD :: INSERT SINGLE RECORD OF A WOR... | PASS |
+		\------------------------------------------------------------------------------
+		TC_2: INSERT MULTIPLE PERSON RECORD :: INSERT SINGLE RECORD OF A W... | PASS |
+		\------------------------------------------------------------------------------
+		TC_3: UPLOAD CSV FILE TO PORTAL :: INSERT SINGLE RECORD OF A WORKI... | PASS |
+		\------------------------------------------------------------------------------
+		TC_4: CALCULATE AMOUNT OF TAX RELIEF :: CALCULATE TAX RELIEF FOR A... | PASS |
+		\------------------------------------------------------------------------------
+		TC_5: DISPENSE TAX RELIEF TO WORKING CLASS HEROES :: DISPENSE THE ... | PASS |
+		\------------------------------------------------------------------------------
+		Cleaning the Oppenheimer Project !!!
 
+		oppenheimerProj.Tests.testSuite                                       | PASS |
+		5 tests, 5 passed, 0 failed
+		\==============================================================================
+		oppenheimerProj.Tests                                                 | PASS |
+		5 tests, 5 passed, 0 failed
+		\==============================================================================
+		oppenheimerProj                                                       | PASS |
+		5 tests, 5 passed, 0 failed
+		\==============================================================================
+		Output:  /Users/iabarnav/eclipse-workspace/oppenheimerProj/output.xml
+		Log:     /Users/iabarnav/eclipse-workspace/oppenheimerProj/log.html
+		Report:  /Users/iabarnav/eclipse-workspace/oppenheimerProj/report.html 
 
-=====================================================================================================================================
